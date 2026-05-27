@@ -3,8 +3,6 @@ import { useState, type FormEvent } from "react";
 
 function App() {
 
-  // "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImRldmVsb3BlciIsImFkbWluIjp0cnVlLCJzdWIiOiJkZXZlbG9wZXJAZ21haWwuY29tIiwiaWF0IjoxNzc5OTA1NzQ4LCJleHAiOjE3Nzk5MDkzNDh9.DxGi4YOzg6dTjqo3KDwY-PtBBwfqhBU3KGvn0tnWsz0"
-  // setToken(e.target.value)
 
   const [token, setToken] = useState<string> ("");
   const [decode, setDecode] = useState<JwtPayload | undefined>();
